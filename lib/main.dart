@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myn_grocery/Main/mainfunction.dart';
 import 'package:myn_grocery/Presentation/(4)productbuypage/buy.dart';
+import 'package:myn_grocery/Presentation/(5)productzoomscreen/zoomscreen.dart';
+import 'package:myn_grocery/Presentation/(top%201)Store%20information/storeinfo.dart';
+import 'package:myn_grocery/Presentation/(top%202)Product%20manufacturer/prdctinfo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
-      home: ProductBuyPage(),
+      home: ProductZoomScreen(),
     );
   }
 }

@@ -1,11 +1,10 @@
-
 import 'package:flutter/material.dart';
 
 class CircleButton extends StatelessWidget {
   final IconData icon;
   final VoidCallback onPressed;
-  bool isBackButton = false;
-  CircleButton({required this.icon, required this.onPressed, super.key});
+  const CircleButton({required this.icon, required this.onPressed, super.key});
+  static bool isBackButton = false;
 
   @override
   Widget build(BuildContext context) {
