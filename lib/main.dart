@@ -17,10 +17,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
-      home: ProductZoomScreen(),
+      home: ScreenMain(),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ProductZoomScreen
+
 
 // class HomePage extends StatelessWidget {
 //   const HomePage({super.key});

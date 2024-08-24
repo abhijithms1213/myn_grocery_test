@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 bool visibling = true;
-ValueNotifier<int> values = ValueNotifier(2);
+ValueNotifier<int> values = ValueNotifier(0);
 const number = 0;
 
 class BottomNavBar extends StatelessWidget {
@@ -35,6 +35,10 @@ class BottomNavBar extends StatelessWidget {
                 BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.settings), label: "Settings"),
+                     BottomNavigationBarItem(
+                    icon: Icon(Icons.home_max), label: "ProductBuyPage"),
+                     BottomNavigationBarItem(
+                    icon: Icon(Icons.production_quantity_limits), label: "ProductZoomScreen"),
               ],
             ),
           ),

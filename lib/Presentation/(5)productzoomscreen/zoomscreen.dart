@@ -99,8 +99,8 @@ class ProductZoomScreen extends StatelessWidget {
                       decoration: BoxDecoration(
                         border: Border.all(
                           color:
-                              value == entry.key ? Colors.purple : Colors.grey,
-                          width: 2.0,
+                              value == entry.key ? Colors.green : Colors.grey,
+                          width: 3.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
